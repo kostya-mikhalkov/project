@@ -1,0 +1,31 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+
+* {
+    font-family: 'Gillroy', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container-big {
+    max-width: 1790px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1492px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #151b1d;
+    background-image: url(./../img/bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/footer';
+@import 'blocks/media';
+@import 'blocks/menu';

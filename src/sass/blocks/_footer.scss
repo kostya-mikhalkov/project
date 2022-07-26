@@ -1,0 +1,45 @@
+.footer {
+    min-height: 280px;
+    &__body {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    &__privacy {
+        margin-right: 263px;
+        img {
+            margin-bottom: 24px;
+        }
+        &-title {
+            max-width: 303px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-bottom: 122px;
+        }
+        &-text {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 32px;
+            color: #FFFFFF;
+        }
+    }
+    &__blog {
+        li {
+            list-style-type: none;
+        }
+        li + li {
+            margin-top: 16px;
+        }
+        a {
+            font-size: 18px;
+            color: #FFFFFF;
+            text-decoration: none;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+@media (max-width: 1200px) {
+    .container-big {
+        max-width: 960px;
+    }
+    .promo {
+        nav {
+            display: none;
+        }
+        .hamburger {
+            display: flex;
+        }
+        &__title {
+            font-size: 44px;
+            line-height: 32px;
+        }
+        &__text {
+            margin-top: 20%;
+        }
+    }
+    .about {
+        margin-top: 566px;
+        &_reverse {
+            order: 0;
+        }
+        &__box {
+            justify-content: center;
+        }
+        &__link {
+            display: inline-block;
+            margin-bottom: 35px;
+        }
+    }
+    .footer {
+        &__privacy {
+            margin-right: 0;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        &__text {
+            max-width: 710px;
+        }
+        &__title {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+    }
+    .about {
+        margin-top: 298px;
+        &__content {
+            &::before {
+                font-size: 189px;
+                left: -25px;
+            }
+        }
+        &__title {
+            font-size: 54px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        &__text {
+            max-width: 470px;
+        }
+        &__title {
+            font-size: 29px;
+            line-height: 35px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .promo {
+        height: auto;
+        &__text {
+            margin-top: 10px;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title {
+            font-size: 14px;
+            line-height: 23px;
+        }
+        &__subtitle {
+            font-size: 12px;
+            padding-left: 55px;
+            &::before {
+                width: 30px;
+            }
+        }
+        &__scroll {
+            font-size: 14px;
+        }
+        .hamburger {
+            top: -38px;
+            right: 22px;
+        }
+    }
+    .menu {
+        .menu__block {
+            width: 254px;
+        }
+    }
+    .about {
+        margin-top: 110px;
+        &__content {
+            &::before {
+                font-size: 115px;
+                left: 3px;
+            }
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 28px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+        &__box {
+            margin-bottom: 100px;
+        }
+        &__photo {
+            width: 277px;
+            height: 363px;
+        }
+    }
+    .footer {
+        &__privacy-title {
+            font-size: 8px;
+            line-height: 20px;
+        }
+        &__privacy-text {
+            font-size: 8px;
+            line-height: 17px;
+        }
+        &__blog {
+            a {
+                font-size: 7px;
+            }
+        }
+    }
+}
